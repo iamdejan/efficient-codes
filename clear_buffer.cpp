@@ -1,4 +1,5 @@
 #include <cstdio>
+#define enter clear_buffer()
 
 void clear_buffer() {
     char c = getchar();
