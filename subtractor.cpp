@@ -3,7 +3,7 @@
 #include "adder.cpp"
 using namespace std;
 
-int debug_substract(int a, int b) {
+int debug_subtract(int a, int b) {
     if(a != b) {
         bitset<8> x(a);
         bitset<8> y(b);
@@ -35,7 +35,7 @@ int debug_substract(int a, int b) {
         return 0;
     }
 }
-int substract(int a, int b) {
+int subtract(int a, int b) {
     if(a != b) {
         /*while(b != 0) {
             int borrow = (~a) & b;
