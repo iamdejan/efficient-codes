@@ -24,7 +24,7 @@ unsigned multiply(unsigned a, unsigned b) { //Russian Peasant
     } else if(b == 1) {
         return a;
     } else {
-        U64 temp = 0;
+        unsigned temp = 0;
         while(b != 0) {
             if(b & 1) { //true if the number is odd
                 temp = (unsigned)add(res, a);
