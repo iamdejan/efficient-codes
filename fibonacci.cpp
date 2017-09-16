@@ -1,10 +1,11 @@
 #include "adder.cpp"
+typedef long long LL;
 
-long long fibonacci(int num) {
+LL fibonacci(int num) {
     if(num == 0 || num == 1) {
-        return num;
+        return (LL)num;
     } else {
-        int left, mid, right;
+        LL left, mid, right;
         left = 0;
         mid = 1;
         for(int i = 2; i <= num; i = add(i, 1)) {
