@@ -1,6 +1,6 @@
 #include "adder.cpp"
 
-U64 fibonacci(int num) {
+long long fibonacci(int num) {
     if(num == 0 || num == 1) {
         return num;
     } else {
